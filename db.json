@@ -1,0 +1,200 @@
+{
+  "users": [
+    {
+      "id": "8c9e",
+      "name": "Tehseen Nawaz",
+      "email": "tehseeennawaz@gmail.com",
+      "password": "abcdefg",
+      "phone": "03126718956",
+      "cnic": "31202-6004922-5",
+      "bookings": [
+        "e3f5",
+        "daef",
+        "f54e",
+        "0134",
+        "4971"
+      ]
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2022,
+      "type": "Sedan",
+      "pricePerDay": 8000,
+      "image": "./images/corolla.jpg"
+    },
+    {
+      "id": "2",
+      "make": "Honda",
+      "model": "City",
+      "year": 2021,
+      "type": "Sedan",
+      "pricePerDay": 7500,
+      "image": "./images/city.jpg"
+    },
+    {
+      "id": "3",
+      "make": "Suzuki",
+      "model": "Swift",
+      "year": 2020,
+      "type": "Hatchback",
+      "pricePerDay": 6000,
+      "image": "./images/swift.jpg"
+    },
+    {
+      "id": "4",
+      "make": "Toyota",
+      "model": "Fortuner",
+      "year": 2023,
+      "type": "SUV",
+      "pricePerDay": 15000,
+      "image": "./images/fortuner.jpg"
+    },
+    {
+      "id": "5",
+      "make": "Toyota",
+      "model": "Hilux",
+      "year": 2022,
+      "type": "Pickup",
+      "pricePerDay": 12000,
+      "image": "./images/hilux.jpg"
+    },
+    {
+      "id": "6",
+      "make": "Suzuki",
+      "model": "Mehran",
+      "year": 2019,
+      "type": "Hatchback",
+      "pricePerDay": 4000,
+      "image": "./images/mehran.jpeg"
+    },
+    {
+      "id": "7",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2023,
+      "type": "Sedan",
+      "pricePerDay": 10000,
+      "image": "./images/civic.webp"
+    },
+    {
+      "id": "8",
+      "make": "MG",
+      "model": "HS",
+      "year": 2022,
+      "type": "SUV",
+      "pricePerDay": 14000,
+      "image": "./images/mg.avif"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": 1,
+      "carId": 1,
+      "carMake": "Toyota",
+      "carModel": "Corolla",
+      "carImage": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "pickupDate": "2023-12-15",
+      "returnDate": "2023-12-18",
+      "driverOption": "self",
+      "pickupLocation": "Karachi",
+      "totalPrice": 24000,
+      "status": "upcoming",
+      "createdAt": "2023-11-20T10:30:00Z"
+    },
+    {
+      "id": "5f7e",
+      "userId": 1,
+      "carId": "1",
+      "carMake": "Toyota",
+      "carModel": "Corolla",
+      "carImage": "./images/corolla.jpg",
+      "pickupDate": "2025-06-16",
+      "returnDate": "2025-06-19",
+      "driverOption": "self",
+      "pickupLocation": "Karachi",
+      "totalPrice": 24000,
+      "status": "upcoming",
+      "createdAt": "2025-06-14T12:25:18.401Z"
+    },
+    {
+      "id": "e3f5",
+      "userId": "8c9e",
+      "carId": "1",
+      "carMake": "Toyota",
+      "carModel": "Corolla",
+      "carImage": "./images/corolla.jpg",
+      "pickupDate": "2025-06-17",
+      "returnDate": "2025-06-20",
+      "driverOption": "self",
+      "pickupLocation": "Karachi",
+      "totalPrice": 24000,
+      "status": "cancelled",
+      "createdAt": "2025-06-14T12:26:54.433Z"
+    },
+    {
+      "id": "daef",
+      "userId": "8c9e",
+      "carId": "3",
+      "carMake": "Suzuki",
+      "carModel": "Swift",
+      "carImage": "./images/swift.jpg",
+      "pickupDate": "2025-06-19",
+      "returnDate": "2025-06-20",
+      "driverOption": "self",
+      "pickupLocation": "Karachi",
+      "totalPrice": 6000,
+      "status": "cancelled",
+      "createdAt": "2025-06-14T12:28:04.436Z"
+    },
+    {
+      "id": "f54e",
+      "userId": "8c9e",
+      "carId": "2",
+      "carMake": "Honda",
+      "carModel": "City",
+      "carImage": "./images/city.jpg",
+      "pickupDate": "2025-06-15",
+      "returnDate": "2025-06-17",
+      "driverOption": "self",
+      "pickupLocation": "Islamabad",
+      "totalPrice": 15000,
+      "status": "upcoming",
+      "createdAt": "2025-06-14T12:29:43.954Z"
+    },
+    {
+      "id": "0134",
+      "userId": "8c9e",
+      "carId": "1",
+      "carMake": "Toyota",
+      "carModel": "Corolla",
+      "carImage": "./images/corolla.jpg",
+      "pickupDate": "2025-06-15",
+      "returnDate": "2025-06-19",
+      "driverOption": "with_driver",
+      "pickupLocation": "Karachi",
+      "totalPrice": 40000,
+      "status": "upcoming",
+      "createdAt": "2025-06-14T16:10:20.064Z"
+    },
+    {
+      "id": "4971",
+      "userId": "8c9e",
+      "carId": "4",
+      "carMake": "Toyota",
+      "carModel": "Fortuner",
+      "carImage": "./images/fortuner.jpg",
+      "pickupDate": "2025-06-19",
+      "returnDate": "2025-07-08",
+      "driverOption": "with_driver",
+      "pickupLocation": "Lahore",
+      "totalPrice": 323000,
+      "status": "upcoming",
+      "createdAt": "2025-06-15T04:17:40.342Z"
+    }
+  ]
+}
