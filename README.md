@@ -1,2 +1,18 @@
-# car-rental
-Car Rental Website (Frontend Only) A responsive, client-side platform for browsing and booking rental cars.  This project is a pure frontend implementation of a car rental system with: ✔ Interactive UI – Filter cars by price, type, or availability. ✔ Dynamic Content – JavaScript-powered car listings and booking forms. 
+# 🚗 Car Rental Website (Frontend)
+
+A responsive car rental website built with **HTML, CSS, and JavaScript.
+
+
+## Features
+- Browse cars with filters (price, type)
+- Interactive booking form
+
+## Technologies
+- HTML5
+- CSS3 
+-  JavaScript
+
+## Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/khan45678/car-rental.git
